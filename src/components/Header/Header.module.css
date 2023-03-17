@@ -1,0 +1,26 @@
+.header {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.logo {
+    position: relative;
+    
+}
+
+.logo span {
+    color: #fff;
+}
+.logo_text {
+    color: #6ead3a;
+    font-family: Aclonica;
+    font-size: 32px;
+    text-shadow: 1px 2px 3px rgba(red, green, blue, 25%);
+}
+
+.logo_img {
+    position: absolute;
+}

@@ -5,7 +5,7 @@ const Header = () => {
     
       <header className={classes.header}>
         <div className={classes.logo}>
-            <div className={classes.logo_text}>GAR<span>A</span>GE <br/>club
+            <div className={classes.logo_text}>GAR<span>A</span>GE <br/><span>club</span>
             <img className={classes.logo_img} src="assets/img/logo.png"/></div>
         </div>
         <Menu/>

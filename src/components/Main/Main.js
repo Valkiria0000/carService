@@ -1,6 +1,12 @@
+import SectionMain from "./Section/SectionMain/SectionMain"
+import SectionAbout from "./SectionAbout/SectionAbout"
+
 const Main = ()=> {
     return (
-        <main></main>
+        <main>
+            <SectionMain/>
+            <SectionAbout/>
+        </main>
     )
 }
 

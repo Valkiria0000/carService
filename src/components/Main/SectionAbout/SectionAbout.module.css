@@ -9,8 +9,6 @@
   box-sizing: border-box;
   background-size: cover;
   height: 100vh;
-  
-    
 }
 
 .info {
@@ -36,17 +34,17 @@
 }
 
 
-.text {
-    width: 40%;
-    background-color:rgba(247, 230, 230, 0.2);
-    padding: 20px;
-    border-radius: 10px;
-    color: #fff;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    box-shadow: 0px 4px 20px rgba(11, 163, 62, 0.47);
-    margin-top: 100px;
-    height: 200px;
+.block {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
+    color: #2BE71B;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  margin-top: 100px;
+  
+  font-size: 18px;
+}
+
+.block img {
+    margin-right: 20px;
 }

@@ -1,0 +1,7 @@
+.price {
+    background-color:blue;
+}
+
+.price div {
+    display: flex;
+}

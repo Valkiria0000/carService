@@ -2,11 +2,3 @@
     background-color: #fff;
     height: 100vh;
 }
-
-.card {
-    width: 200px;
-    background-color:aqua;
-    height: auto;
-    color: black;
-    border: 1px solid #000;
-}

@@ -1,7 +1,10 @@
 .price {
-    background-color:blue;
+    background-color:#7BF331;
+    height: 100vh;
+   
 }
 
-.price div {
-    display: flex;
+.container {
+     display: flex;
 }
+

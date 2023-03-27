@@ -12,8 +12,25 @@ import "swiper/css/effect-coverflow"
 const SectionSlider = () => {
   return (
     <div className={classes.section}>
+     <p className="title">При обращении в наш сервис Вы получите:</p>
+      <div className={classes.info}>
       
-      <Swiper 
+        <div className={classes.card}>
+          <div className={classes.num}>01</div>
+          <p>Предварительную стоимость ремонта</p>
+        </div>
+        <div className={classes.card}>
+          <div className={classes.num}>02</div>
+          <p>Возможность записи на ремонт в удобное время</p>
+        </div>
+        <div className={classes.card}>
+          <div className={classes.num}>03</div>
+          <p>Экономию времени и денег на поиск запчастей</p>
+        </div>
+       
+      </div>
+
+      <div> <Swiper 
         modules={[Navigation, Pagination, A11y, EffectCoverflow]}
         spaceBetween={50}
         navigation
@@ -44,7 +61,8 @@ const SectionSlider = () => {
         <SwiperSlide ><img src="./assets/img/slider/foto8.jpg" alt="slideImg8"/></SwiperSlide>
         
       </Swiper>
-    
+    </div>
+     
 
     </div>
   );

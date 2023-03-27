@@ -1,5 +1,5 @@
 .section {
-  background-image: url(../../../../../public/assets/img/bcg.png);
+  background-image: url(../../../../public/assets/img/bcg.png);
   box-sizing: border-box;
   background-size: cover;
   height: 100vh;
@@ -7,7 +7,7 @@
   background-repeat: no-repeat;
 }
 .content {
-  background-image: url(../../../../../public/assets/img/car.png);
+  background-image: url(../../../../public/assets/img/car.png);
   box-sizing: border-box;
   background-size:cover;
   width: 100%;
@@ -43,8 +43,8 @@
 .info p {
     font-size: 24px;
     margin: 20px 0;
-    color: #2BE71B;
-    border-bottom: 1px solid #2BE71B;
+    color: #7BF331;
+    border-bottom: 1px solid #7BF331;
     
 }
 

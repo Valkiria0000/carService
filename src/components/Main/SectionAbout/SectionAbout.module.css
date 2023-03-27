@@ -11,12 +11,6 @@
   height: 100vh;
 }
 
-.about h2 {
-    font-size: 42px;
-    text-align: center;
-    margin-bottom: 10px;color: #122445;
-    text-shadow: 0px 4px 20px #122445;
-}
 .info {
   display: flex;
   justify-content: space-between;
@@ -36,10 +30,23 @@
   font-size: 55px;
   line-height: 65px;
   color: #000;
-  text-shadow: 0px 4px 20px rgba(255, 0, 0, 0.47);
+  animation: animatShadow 5s ease-in-out infinite alternate forwards ;
+ 
+  transition: 1s;
 }
 
 
+  @keyframes animatShadow {
+      0% {
+          text-shadow: 0px 4px 20px #fff ;
+      }
+      
+      100% {
+       text-shadow: 0px 4px 20px #7BF331 ;
+      }
+     
+      
+  }
 .block {
     display: flex;
     align-items: center;

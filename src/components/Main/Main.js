@@ -6,7 +6,7 @@ import SectionComment from "./SectionComment/SectionComment"
 
 const Main = ()=> {
     return (
-        <main>
+        <main >
             <SectionMain/>
             <SectionAbout/>
           <SectionPrice/>

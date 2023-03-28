@@ -1,11 +1,15 @@
 import classes from "./SectionPrice.module.css";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
+
+import "../../../App.css"
 const SectionPrice = () => {
   return (
-    <div className={classes.price}>
+    <section className={classes.price}>
+        <div className="wrapper">
+            
       <h2 className="title">Услуги</h2>
-      <div className={classes.container}>
+     
         <Tabs>
           <TabList>
             <Tab>Ремонт КПП и сцепления</Tab>
@@ -17,84 +21,84 @@ const SectionPrice = () => {
           </TabList>
 
           <TabPanel>
-            <div>
-              <div>
+            
+              <div className={classes.info}>
                 <h3>
                   Замена сцепления(комплект)
                 </h3>
-                <p>Цена: от 6000 ₽</p>
+                <span>Цена: от 6000 ₽</span>
               </div>
-              <div>
+              <div className={classes.info}> 
                 <h3>
                   Замена рабочего циллиндра сцепления
                 </h3>
-                <p>Цена: 630 ₽</p>
+                <span>Цена: 630 ₽</span>
               </div>
-              <div>
+              <div className={classes.info}>
                 <h3>
                   Прокачка контура сцепления
                 </h3>
-                <p>Цена: 630 ₽</p>
+                <span>Цена: 630 ₽</span>
               </div>
-              <div>
+              <div className={classes.info}>
                 <h3>
                   Замена главного циллиндра сцепления
                 </h3>
-                <p>Цена: 1500 ₽</p>
+                <span>Цена: 1500 ₽</span>
               </div>
-              <div>
+              <div className={classes.info}>
                 <h3>
                   С/у АКПП(МКПП)легкового моноприводного а/м
                 </h3>
-                <p>Цена: 6000 ₽</p>
+                <span>Цена: 6000 ₽</span>
               </div>
-              <div>
+              <div className={classes.info}>
                 <h3>
                  Сборка/разборка АКПП (МКПП) легкового моноприводного а/м
                 </h3>
-                <p>Цена: 7000 ₽</p>
+                <span>Цена: 7000 ₽</span>
               </div>
-              <div>
+              <div className={classes.info}>
                 <h3>
                   С/у АКПП (МКПП) полноприводного а/м
                 </h3>
-                <p>Цена: 8000 ₽</p>
+                <span>Цена: 8000 ₽</span>
               </div>
-              <div>
+              <div className={classes.info}>
                 <h3>
                  Сборка/разборка АКПП (МКПП) полноприводного а/м
                 </h3>
-                <p>Цена: 9000₽</p>
+                <span>Цена: 9000₽</span>
               </div>
-              <div>
+              <div className={classes.info}>
                 <h3>
                 Сборка/разборка АКПП (МКПП) тяжелого внедорожного а/м
                 </h3>
-                <p>Цена: 12000 ₽</p>
+                <span>Цена: 12000 ₽</span>
               </div>
-              <div>
+              <div className={classes.info}>
                 <h3>
                 С/у АКПП (МКПП) тяжелого внедорожного а/м
                 </h3>
-                <p>Цена: 13000 ₽</p>
+                <span>Цена: 13000 ₽</span>
               </div>
-              <div>
+              <div className={classes.info}>
                 <h3>
                   Ремонт ГБЦ без снятия ГБЦ (притирка клапанов + замена
                   прокладок + замена маслосъемных колпачков)
                 </h3>
-                <p>Цена: 4000р</p>
+                <span>Цена: 4000р</span>
               </div>
-              <div>
+              <div className={classes.info}>
                 <h3>Замена ГРМ (рядный ДВС одновальный SOHC)</h3>
-                <p>Цена: 4500р</p>
+                <span>Цена: 4500р</span>
               </div>
 
-              <div>
+              <div className={classes.info}> 
                 <h3>Замена ГРМ (рядный ДВС двухвальный DOHC)</h3>
-                <p>Цена: 6500р</p>
+                <span>Цена: 6500р</span>
               </div>
-            </div>
+           
           </TabPanel>
           <TabPanel>
             <h2>Any content 2</h2>
@@ -106,7 +110,8 @@ const SectionPrice = () => {
           </TabPanel>
         </Tabs>
       </div>
-    </div>
+    
+    </section>
   );
 };
 

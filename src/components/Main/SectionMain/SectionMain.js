@@ -2,7 +2,7 @@ import classes from "./SectionMain.module.css";
 import Typewriter from "typewriter-effect";
 const Section = () => {
   return (
-    <section className={classes.section}>
+    <div className={classes.section}>
       <div className={classes.content}>
         <div className={classes.info}>
           <div className={classes.block}>
@@ -19,7 +19,7 @@ const Section = () => {
           <p>все виды шиномонтажных работ</p></div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 export default Section;

@@ -6,7 +6,7 @@ const SectionComment = () => {
     const wow = new WOW.WOW();
     wow.init();
   return (
-    <div className={classes.section}>
+    <section className={classes.section}>
       <h2 >
        
       
@@ -39,7 +39,7 @@ const SectionComment = () => {
           <p>Константин</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

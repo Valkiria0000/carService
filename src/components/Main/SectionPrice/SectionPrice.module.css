@@ -1,10 +1,26 @@
+
+
 .price {
     background-color:#7BF331;
-    height: 100vh;
+    height: auto;
    
 }
 
-.container {
-     display: flex;
+.info {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px ;
+   letter-spacing: 2px
+;
 }
 
+.info h3 {
+    width: 60%;
+    font-weight: normal;
+}
+.info:nth-child(odd){
+background-color:#eaf5f7;
+}

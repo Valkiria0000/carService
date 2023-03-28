@@ -8,7 +8,7 @@
   background-repeat: no-repeat;
   box-sizing: border-box;
   background-size: cover;
-  height: 100vh;
+  height: auto;
 }
 
 .info {
@@ -31,7 +31,7 @@
   line-height: 65px;
   color: #000;
   animation: animatShadow 5s ease-in-out infinite alternate forwards ;
- 
+ margin-bottom: 10px;
   transition: 1s;
 }
 

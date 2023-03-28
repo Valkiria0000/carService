@@ -11,7 +11,7 @@ import "swiper/css/effect-coverflow"
 
 const SectionSlider = () => {
   return (
-    <div className={classes.section}>
+    <section className={classes.section}>
      <p className="title">При обращении в наш сервис Вы получите:</p>
       <div className={classes.info}>
       
@@ -64,7 +64,7 @@ const SectionSlider = () => {
     </div>
      
 
-    </div>
+    </section>
   );
 };
 

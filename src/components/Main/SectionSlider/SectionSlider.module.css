@@ -1,10 +1,10 @@
 .section {
-    background-color: #000;
-    height: 100vh;
-    box-shadow: 0px -4px 20px 8px #000;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  background-color: #000;
+  height: auto;
+  box-shadow: 0px -4px 20px 8px #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .info {
@@ -22,7 +22,7 @@
 }
 
 .card p {
-    color: aliceblue;
+  color: aliceblue;
 }
 .num {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -30,20 +30,16 @@
   font-size: 55px;
   line-height: 65px;
   color: #000;
-  animation: animatShadow 5s ease-in-out infinite alternate forwards ;
- 
+  animation: animatShadow 5s ease-in-out infinite alternate forwards;
   transition: 1s;
 }
 
-
-  @keyframes animatShadow {
-      0% {
-          text-shadow: 0px 4px 20px #fff ;
-      }
-      
-      100% {
-       text-shadow: 0px 4px 20px #7BF331 ;
-      }
-     
-      
+@keyframes animatShadow {
+  0% {
+    text-shadow: 0px 4px 20px #fff;
   }
+
+  100% {
+    text-shadow: 0px 4px 20px #7bf331;
+  }
+}

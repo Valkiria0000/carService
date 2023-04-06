@@ -28,7 +28,7 @@ const SectionAbout = () => {
           <div className={classes.block}>
             <img src="./assets/img/icon/icon1.png" />
             <p>
-              Автосервис «Garage club» предлагает качественный ремонт
+              Техцентр «ГАРАЖ» (ГТГ) предлагает качественный ремонт
               автомобилей во Фрязино по приемлемым ценам.
             </p>
           </div>

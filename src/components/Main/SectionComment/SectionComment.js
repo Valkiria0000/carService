@@ -7,7 +7,7 @@ const SectionComment = () => {
     wow.init();
   return (
     <section className={classes.section}>
-      <h2 >
+    <div className="wrapper">  <h2 >
        
       
         Отзывы
@@ -38,6 +38,7 @@ const SectionComment = () => {
           </p>
           <p>Константин</p>
         </div>
+      </div>
       </div>
     </section>
   );

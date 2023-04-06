@@ -2,7 +2,7 @@ import classes from "./SectionAbout.module.css";
 const SectionAbout = () => {
   return (
     <section className={classes.about}>
-        <h2 className="title">О нас</h2>
+      <div className="wrapper">   <h2 className="title">О нас</h2>
       <div className={classes.info}>
         <div className={classes.card}>
           <div className={classes.num}>5</div>
@@ -18,7 +18,7 @@ const SectionAbout = () => {
         </div>
       
       </div>
-      <div className="wrapper">
+     
       <div className={classes.block}>
             <img src="./assets/img/icon/icon3.png" />
             <p>

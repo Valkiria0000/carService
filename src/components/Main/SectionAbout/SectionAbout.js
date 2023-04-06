@@ -13,16 +13,18 @@ const SectionAbout = () => {
           <div>клиентов уже выбрали нас и остались довольны</div>
         </div>
         <div className={classes.card}>
-          <div className={classes.num}>4</div>
-          <div>года успешных работ по обслуживанию и ремонту</div>
+          <div className={classes.num}> 10 </div>
+          <div>лет успешных работ по обслуживанию и ремонту</div>
         </div>
-        <div className={classes.card}>
-          <div className={classes.num}>6</div>
-          <div>месяцев гарантии на все выполненные работы</div>
-        </div>
+      
       </div>
       <div className="wrapper">
-        
+      <div className={classes.block}>
+            <img src="./assets/img/icon/icon3.png" />
+            <p>
+            Мы оказываем услуги по обслуживанию авто, шиномонтажу. Кроме того, мы можем заказать необходимые запчасти для Вашего автомобиля.
+            </p>
+          </div>
           <div className={classes.block}>
             <img src="./assets/img/icon/icon1.png" />
             <p>
@@ -47,6 +49,7 @@ const SectionAbout = () => {
               автомобиля.
             </p>
           </div>
+          
         
       </div>
     </section>

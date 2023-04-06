@@ -7,7 +7,7 @@ const SectionComment = () => {
     wow.init();
   return (
     <section className={classes.section}>
-    <div className="wrapper">  <h2 >
+    <div className="wrapper">  <h2 className="title">
        
       
         Отзывы

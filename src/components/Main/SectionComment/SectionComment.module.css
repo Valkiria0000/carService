@@ -1,11 +1,13 @@
 .section {
     background-color:#7BF331;
     height: auto;
+    position: relative;
+   
 }
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 .container div {

@@ -1,3 +1,68 @@
+
+
 .contact {
 color: aliceblue;
+font-size: 22px;
+position: relative;
+z-index: 2;
 }
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+}
+
+.adress {
+    flex-grow: 2;
+}
+
+.links {
+    flex-grow: 1;
+}
+
+.block a {
+    text-decoration: none;
+    color: #7BF331;
+    margin-left: 20px;
+}
+
+.info p {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.info p span {
+    color: #7BF331;
+}
+
+.bcg {
+    background-image: url("../../../../public/assets/img/contactbcg.png");
+
+    position: absolute;
+    width: 64%;
+    background-size: contain;
+    height: 100%;
+    z-index: -2;
+    background-repeat: no-repeat;
+    right: 10%;
+    opacity: 0.2;  animation-name: animat ;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+  @keyframes animat {
+      0% {
+          transform:rotate(0deg);
+      }
+      100% {
+          transform:rotate(360deg)
+          ;
+      }
+     
+      
+  }

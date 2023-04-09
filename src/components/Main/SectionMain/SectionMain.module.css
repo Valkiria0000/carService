@@ -25,35 +25,33 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-
   height: 80%;
   width: 100%;
+  letter-spacing: 5px;
+  text-align: center;
 }
 
 .title {
   font-size: 38px;
   text-transform: uppercase;
   text-shadow: 1px 2px 3px rgba(255, 252, 247, 0.7);
-  color:#ecdbba;
- 
-  
+  color:#ecdbba;  
 }
 
 
 .info p {
-    font-size: 24px;
+    font-size: 20px;
+    font-weight: bold;
     margin: 20px 0;
     color: #7BF331;
     border-bottom: 1px solid #7BF331;
-    
+
 }
 
 .info h2 {
-    
     font-size: 38px;
     text-transform: uppercase;
     text-shadow: 1px 2px 3px rgba(255, 252, 247, 0.7);
-    letter-spacing: 2px;
 }
 
 .block {

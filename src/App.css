@@ -5,6 +5,7 @@
 
 body {
   box-sizing: border-box;
+  font-family: "Oswald";
 }
 .App {
   background-color: black;
@@ -17,6 +18,7 @@ body {
 
 .title {
   font-size: 42px;
+  font-family: "Lobster";
   text-align: center;
   margin-bottom: 20px;
   color: #c84b31;
@@ -56,32 +58,30 @@ section {
 }
 
 .react-tabs__tab-panel--selected {
- 
   width: 100%;
 }
 .react-tabs__tab-list {
-font-family: fantasy;
-font-size: 18px;
-letter-spacing: 2px;
-color:#216169;margin: 0 0 36px;
-text-shadow: 1px 2px 3px #fff;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #216169;
+  margin: 0 0 36px;
+  text-shadow: 1px 2px 3px #fff;
 }
 
 .react-tabs__tab-list .react-tabs__tab--selected {
-  background-color:#c84b31;
+  background-color: #c84b31;
   border-bottom: 0;
   text-shadow: 2px 2px 3px #fff;
   transition: 0.8s;
- }
-  .react-tabs__tab-list li{
-    border: 2px solid transparent;
-   
-    padding: 10px 30px;
-   }
+}
+.react-tabs__tab-list li {
+  border: 2px solid transparent;
+  padding: 10px 30px;
+}
 
-   .react-tabs__tab-panel {
-    background-color:#d4d1d1;
- margin-top: 26px;
-    border: 2px solid #c2bcbc;;
-   }
-   
+.react-tabs__tab-panel {
+  background-color: #d4d1d1;
+  margin-top: 26px;
+  border: 2px solid #c2bcbc;
+}

@@ -15,7 +15,6 @@
   display: flex;
   justify-content: space-between;
   z-index: 1;
-  
 }
 
 .card {
@@ -24,6 +23,7 @@
   align-items: center;
   width: 20%;
   text-align: center;
+  font-size: 18px;
 }
 .num {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -31,34 +31,28 @@
   font-size: 55px;
   line-height: 65px;
   color: #000;
-  animation: animatShadow 5s ease-in-out infinite alternate forwards ;
- margin-bottom: 10px;
+  animation: animatShadow 5s ease-in-out infinite alternate forwards;
+  margin-bottom: 10px;
   transition: 1s;
 }
 
-
-  @keyframes animatShadow {
-      0% {
-          text-shadow: 0px 4px 20px #fff ;
-      }
-      
-      100% {
-       text-shadow: 0px 4px 20px #7BF331 ;
-      }
-     
-      
+@keyframes animatShadow {
+  0% {
+    text-shadow: 0px 4px 20px #fff;
   }
-.block {
-    display: flex;
-    align-items: center;
-    color: #2BE71B;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 
+  100% {
+    text-shadow: 0px 4px 20px #7bf331;
+  }
+}
+.block {
+  display: flex;
+  align-items: center;
+  color: #2be71b;
   margin-top: 50px;
-  
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .block img {
-    margin-right: 20px;
+  margin-right: 20px;
 }

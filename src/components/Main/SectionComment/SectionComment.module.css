@@ -1,13 +1,15 @@
 .section {
-    background-color:#7BF331;
+    background-color:#000;
     height: auto;
     position: relative;
+    z-index: 2;
    
 }
 
 .container {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
+    padding: 50px 0;
 }
 
 .container div {
@@ -27,3 +29,30 @@
     transform: translateX(10px) rotate(10deg) translateY(5px);
    transition: 1s;
 }
+.bcg {
+    background-image: url("../../../../public/assets/img/contactbcg.png");
+
+    position: absolute;
+    width: 280px;
+    background-size: contain;
+    height: 280px;
+    z-index: 0;
+    background-repeat: no-repeat;
+    right: 37%;
+    opacity: 0.2;  animation-name: animat ;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+  @keyframes animat {
+      0% {
+          transform:rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg) 
+          ;
+      }
+     
+      
+  }

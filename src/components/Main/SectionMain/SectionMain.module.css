@@ -5,6 +5,7 @@
   height: 100vh;
   width: auto;
   background-repeat: no-repeat;
+  position: relative;
 }
 .content {
   background-image: url(../../../../public/assets/img/car.png);
@@ -58,4 +59,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.phone {
+  position: fixed;
+  right: 0;
+  width: 45px;
+  height: 153px;
+  background-color: #C84B31;
+  border-radius: 4px;
+  opacity: 0.8;
+  writing-mode: vertical-rl;
+}
+
+.phone a {
+  
+  text-decoration: none;
+  color: #ecdbba;
 }

@@ -3,6 +3,9 @@ import Typewriter from "typewriter-effect";
 const Section = () => {
   return (
     <div className={classes.section}>
+      <div className={classes.phone}>
+        Тел:  <a href="tel:+79253714842">8(925)371-48-42</a> 
+      </div>
       <div className={classes.content}>
         <div className={classes.info}>
           <div className={classes.block}>

@@ -1,5 +1,5 @@
 .section {
-    background-color:#000;
+    background-color:#7BF331;
     height: auto;
     position: relative;
     z-index: 2;
@@ -13,8 +13,8 @@
 }
 
 .container div {
-    width: 300px;
-    height: 200px;
+    width: 250px;
+    height: 180px;
     background-color: #fff
     ;
     display: flex;

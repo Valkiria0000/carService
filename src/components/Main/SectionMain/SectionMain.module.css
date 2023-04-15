@@ -63,13 +63,18 @@
 
 .phone {
   position: fixed;
-  right: 0;
-  width: 45px;
-  height: 153px;
-  background-color: #C84B31;
-  border-radius: 4px;
-  opacity: 0.8;
-  writing-mode: vertical-rl;
+    right: 0;
+    display: flex;
+    width: 45px;
+    height: 153px;
+    background-color: #C84B31;
+    border-radius: 4px;
+    opacity: 0.8;
+    writing-mode: vertical-rl;
+    text-align: center;
+    z-index: 3;
+    justify-content: center;
+    align-items: center;
 }
 
 .phone a {

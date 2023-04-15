@@ -5,7 +5,7 @@ color: aliceblue;
 font-size: 22px;
 position: relative;
 z-index: 2;
-background-color: #7BF331;
+background-color: #000;
 
 }
 
@@ -30,8 +30,15 @@ background-color: #7BF331;
 
 .block a {
     text-decoration: none;
-    color: #000;
+    color: #7BF331;
     margin-left: 20px;
+}
+
+.block a:hover {
+    text-decoration:overline;
+    color: #fff;
+    text-shadow: 1px 3px 5px #fff;
+   transition: 0.8s;
 }
 
 .info p {

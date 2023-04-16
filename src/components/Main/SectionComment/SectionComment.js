@@ -6,14 +6,14 @@ const SectionComment = () => {
   const wow = new WOW.WOW();
   wow.init();
   return (
-    <section className={classes.section}>
+    <section className={classes.section} id="section5">
       <div className="wrapper">
         <h2 className="title">Отзывы</h2>
         <div className={classes.bcg}> </div>
         <div className={classes.container}>
           <div
             className="wow animate__fadeInTopRight "
-            data-wow-offset="20"
+            data-wow-offset="30"
             data-wow-delay="0.8s"
           >
             <p>
@@ -26,7 +26,7 @@ const SectionComment = () => {
           </div>
           <div
             className="wow animate__fadeInTopRight "
-            data-wow-offset="20"
+            data-wow-offset="30"
             data-wow-delay="1s"
           >
             <p>
@@ -38,7 +38,7 @@ const SectionComment = () => {
           </div>
           <div
             className="wow animate__fadeInTopRight "
-            data-wow-offset="20"
+            data-wow-offset="30"
             data-wow-delay="1.2s"
           >
             <p>
@@ -50,7 +50,7 @@ const SectionComment = () => {
           </div>
           <div
             className="wow animate__fadeInTopRight "
-            data-wow-offset="20"
+            data-wow-offset="30"
             data-wow-delay="1.4s"
           >
             <p>

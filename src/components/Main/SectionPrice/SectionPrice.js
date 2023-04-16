@@ -5,7 +5,7 @@ import "react-tabs/style/react-tabs.css";
 import "../../../App.css"
 const SectionPrice = () => {
   return (
-    <section className={classes.price}>
+    <section className={classes.price} id="section2">
         <div className="wrapper">
             
       <h2 className="title">Услуги</h2>

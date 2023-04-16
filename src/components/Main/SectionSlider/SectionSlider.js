@@ -11,7 +11,7 @@ import "swiper/css/effect-coverflow"
 
 const SectionSlider = () => {
   return (
-    <section className={classes.section}> <div className="wrapper">
+    <section className={classes.section} id="section3"> <div className="wrapper">
      <p className="title">При обращении в наш сервис Вы получите:</p>
     
     

@@ -2,7 +2,7 @@ import classes from "./SectionContact.module.css";
 
 const SectionContact = () => {
   return (
-    <section className={classes.contact}>
+    <section className={classes.contact} id="section4">
       <div className="wrapper">
        
         <h2 className="title">Контакты</h2>

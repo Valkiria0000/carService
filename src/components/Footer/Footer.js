@@ -1,6 +1,10 @@
+import classes from "./Footer.module.css"
+
 const Footer = () => {
     return(
-        <footer>fu</footer>
+        <footer className={classes.footer}>
+            <div>copyright © 2023	</div>
+        </footer>
     )
 }
 

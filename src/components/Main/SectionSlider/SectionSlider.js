@@ -32,7 +32,9 @@ const SectionSlider = () => {
      
     </div>
 
-      <div className={classes.slider}> <Swiper 
+      <div className={classes.slider}> 
+      <Swiper 
+     
         modules={[Navigation, Pagination, A11y, EffectCoverflow]}
         spaceBetween={50}
         navigation
@@ -42,6 +44,7 @@ const SectionSlider = () => {
        centeredSlides={true}
        loop={true}
        slidesPerView={3}
+       
        coverflowEffect = {{
         rotate:0,
         stretch: 0,

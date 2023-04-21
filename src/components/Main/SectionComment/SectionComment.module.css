@@ -24,9 +24,10 @@
     box-shadow: 1px 2px 3px #000;
     border-radius: 10px;
     cursor: pointer;
+    margin-right: 20px;
 }
 .container div:hover  {
-    transform: translateX(10px) rotate(10deg) translateY(5px);
+    transform: translateX(10px);
    transition: 1s;
 }
 .bcg {
@@ -40,18 +41,20 @@
     background-repeat: no-repeat;
     right: 37%;
     opacity: 0.2;  animation-name: animat ;
-    animation-duration: 7s;
+    animation-duration: 8s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 
   @keyframes animat {
       0% {
-          transform:rotate(0deg);
+          transform:translateX(-1000px) rotate(360deg);
       }
       100% {
-        transform: rotate(360deg) 
-          ;
+        transform: translateX(500px) ;
+        transition:1s;
+        opacity: 0;
+          
       }
      
       

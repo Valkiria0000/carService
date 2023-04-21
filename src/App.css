@@ -84,3 +84,14 @@ section {
   margin-top: 26px;
   border: 2px solid #c2bcbc;
 }
+@media screen and (min-width: 576px) {
+  .swiper-container {
+    width: 576px;
+  }
+}
+
+@media screen and (min-width: 370px) {
+  .swiper-container {
+    width: 360px;
+  }
+}

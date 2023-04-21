@@ -59,3 +59,19 @@
      
       
   }
+
+@media screen and (min-width: 370px) {
+    @keyframes animat {
+        0% {
+            transform:translateX(-500px) rotate(360deg);
+        }
+        100% {
+          transform: translateX(200px) ;
+          transition:1s;
+          opacity: 0;
+            
+        }
+       
+        
+    }
+  }

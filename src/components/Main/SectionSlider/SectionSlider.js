@@ -34,9 +34,18 @@ const SectionSlider = () => {
 
       <div className={classes.slider}> 
       <Swiper 
-     
+      breakpoints={{
+        576: {
+          width: 576,
+          slidesPerView: 3,
+        },
+        370: {
+          width: 360,
+          slidesPerView: 3,
+        },
+      }}
         modules={[Navigation, Pagination, A11y, EffectCoverflow]}
-        spaceBetween={50}
+        spaceBetween={30}
         navigation
         pagination={{ clickable: true }}
        effect={"coverflow"}

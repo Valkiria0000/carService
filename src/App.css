@@ -84,7 +84,9 @@ section {
   margin-top: 26px;
   border: 2px solid #c2bcbc;
 }
-
+section > .wrapper > .swiper {
+  width: 1100px;
+}
 @media screen and (max-width: 500px) {
   section > .wrapper > .swiper {
     width: 350px;

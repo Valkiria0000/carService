@@ -8,15 +8,15 @@ const SectionContact = () => {
         <h2 className="title">Контакты</h2>
         <div className={classes.info}>
           <div className={classes.adress}>
-            <iframe
+          <p>
+              Адрес: <span>Московская область, г.о. Щелково,<br/>село Трубино</span>
+            </p>  <iframe
               src="https://yandex.ru/map-widget/v1/?um=constructor%3Af424808ab746531cac318585c7cf042d26dac0d6eb38150a316bf9c58f6a71fd&amp;source=constructor"
               width="457"
               height="400"
               frameborder="0"
             ></iframe>
-            <p>
-              Адрес: <span>Московская область, г.о. Щелково, село Трубино</span>
-            </p>
+            
           </div>
           <div className={classes.links}>
             <p>Связаться с нами:</p>

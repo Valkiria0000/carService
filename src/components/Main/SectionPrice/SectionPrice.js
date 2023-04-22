@@ -13,8 +13,8 @@ const SectionPrice = () => {
         <Tabs>
           <TabList>
             <Tab>Ремонт КПП и сцепления</Tab>
-            <Tab>Слесарный ремонт</Tab>
             <Tab>Ремонт двигателя</Tab>
+            <Tab>Слесарный ремонт</Tab>
             <Tab>Тех.обслуживание
 
             </Tab>
@@ -222,11 +222,285 @@ const SectionPrice = () => {
                 </h3>
                 <span>Цена: от 2500₽</span>
               </div>
+              <div className={classes.info}> 
+                <h3>С/у подрамника
+                </h3>
+                <span>Цена: от 3000₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>С/у рулевой рейки легкового а/м
+                </h3>
+                <span>Цена: от 5000₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>С/у рулевой рейки внедорожника
+                </h3>
+                <span>Цена: от 8000₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена продольного рычага
+                </h3>
+                <span>Цена: от 900₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена поперечного рычага
+                </h3>
+                <span>Цена: от 900₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена рулевой тяги
+                </h3>
+                <span>Цена: от 900₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена суппорта в сборе
+                </h3>
+                <span>Цена: от 1000₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена тормозного диска + замена колодок
+                </h3>
+                <span>Цена: от 1100₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена верхнего рычага
+                </h3>
+                <span>Цена: от 1300₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена треугольного рычага
+                </h3>
+                <span>Цена: от 1500₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена приводного вала (в сборе)
+                </h3>
+                <span>Цена: от 1800₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Регулировка развал схождения малый и средний класс
+                </h3>
+                <span>Цена: от 1800₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена заднего амортизатора
+                </h3>
+                <span>Цена: от 2000₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена заднего продольного рычага
+                </h3>
+                <span>Цена: от 2200₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Регулировка развал схождения представительский класс, внедорожники, минивэны
+                </h3>
+                <span>Цена: от 2200₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена переднего амортизатора + опорного подшипника + пружины
+                </h3>
+                <span>Цена: от 2250₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена задних тормозных колодок (барабанные)
+                </h3>
+                <span>Цена: от 2500₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена вакуумного усилителя тормозов
+                </h3>
+                <span>Цена: от 2500₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена подшипника ступицы
+                </h3>
+                <span>Цена: от 2500₽</span>
+              </div>
+             
           </TabPanel>
           <TabPanel>
-            <h2>Any content 3</h2>
+             <div className={classes.info}> 
+                <h3>Регулировка ручного тормоза
+                </h3>
+                <span>Цена: от 200₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена тормозного шланга
+                </h3>
+                <span>Цена: от 300₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Диагностика тормозной системы
+                </h3>
+                <span>Цена: от 500₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Диагностика ходовой системы
+                </h3>
+                <span>Цена: от 500₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Перепрессовка сайлент-блока
+                </h3>
+                <span>Цена: от 500₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена тормозного барабана
+                </h3>
+                <span>Цена: от 600₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Прока тормозов
+                </h3>
+                <span>Цена: от 630₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена рулевого наконечника
+                </h3>
+                <span>Цена: от 630₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена шаровой опоры
+                </h3>
+                <span>Цена: от 630₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена 1-й стойки стабилизатора
+                </h3>
+                <span>Цена: от 650₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена 1-й втулки стабилизатора
+                </h3>
+                <span>Цена: от 630₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена передних тормозных колодок (дисковые)
+                </h3>
+                <span>Цена: от 700₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена задних тормозных колодок (дисковые)
+                </h3>
+                <span>Цена: от 700₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена передних тормозных колодок (дисковые с датчиками)
+                </h3>
+                <span>Цена: от 800₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена заднего тормозного циллиндра
+                </h3>
+                <span>Цена: от 900₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Диагностика ходовой системы + тормозной системы
+                </h3>
+                <span>Цена: от 900₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена топливного фильтра - дизель
+                </h3>
+                <span>Цена: от 1100₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена масла в автоматической коробке передач (АКПП)
+                </h3>
+                <span>Цена: от 1500₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена масла в механической коробке передач (МКПП) + с/у поддона + замена фильтра
+                </h3>
+                <span>Цена: от 2500₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена топливного фильтра (погружного)
+                </h3>
+                <span>Цена: от 2500₽</span>
+              </div>
           </TabPanel> <TabPanel>
-            <h2>Any content 4</h2>
+          <div className={classes.info}> 
+                <h3>С/у защиты двигателя
+                </h3>
+                <span>Цена: от 200₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена воздушного фильтра
+                </h3>
+                <span>Цена: от 200₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена свечей зажигания (1 шт)
+                </h3>
+                <span>Цена: от 200₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена масла в двигателе (ДВС) + маслянный фильтр
+                </h3>
+                <span>Цена: от 600₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена салонного фильтра
+                </h3>
+                <span>Цена: от 630₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена масла в механической коробке передач (КПП)
+                </h3>
+                <span>Цена: от 900₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена масла в редукторе
+                </h3>
+                <span>Цена: от 900₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена масла в ведущем мосту
+                </h3>
+                <span>Цена: от 900₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена тормозной жидкости с прокачкой
+                </h3>
+                <span>Цена: от 900₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена охлаждающей жидкости, тосола
+                </h3>
+                <span>Цена: от 900₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена антифриза
+                </h3>
+                <span>Цена: от 900₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена жидкости ГУР
+                </h3>
+                <span>Цена: от 900₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена жидкости сцепления с прокачкой
+                </h3>
+                <span>Цена: от 900₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена топливного фильтра - бензин
+                </h3>
+                <span>Цена: от 900₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>С/у коллектора
+                </h3>
+                <span>Цена: от 1000₽</span>
+              </div>
+              <div className={classes.info}> 
+                <h3>Замена топливного фильтра
+                </h3>
+                <span>Цена: от 1100₽</span>
+              </div>
           </TabPanel>
         </Tabs>
       </div>

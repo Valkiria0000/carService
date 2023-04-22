@@ -32,20 +32,11 @@ const SectionSlider = () => {
      
     </div>
 
-      <div className={classes.slider}> 
+     
       <Swiper 
-      breakpoints={{
-        576: {
-          width: 576,
-          slidesPerView: 3,
-        },
-        370: {
-          width: 360,
-          slidesPerView: 3,
-        },
-      }}
+       
         modules={[Navigation, Pagination, A11y, EffectCoverflow]}
-        spaceBetween={30}
+        spaceBetween={5}
         navigation
         pagination={{ clickable: true }}
        effect={"coverflow"}
@@ -53,7 +44,6 @@ const SectionSlider = () => {
        centeredSlides={true}
        loop={true}
        slidesPerView={3}
-       
        coverflowEffect = {{
         rotate:0,
         stretch: 0,
@@ -62,6 +52,7 @@ const SectionSlider = () => {
        }
 
        }
+    
      
       >
         <SwiperSlide >
@@ -75,7 +66,7 @@ const SectionSlider = () => {
         <SwiperSlide ><img src="./assets/img/slider/foto8.jpg" alt="slideImg8"/></SwiperSlide>
         
       </Swiper>
-    </div>
+    
      
     </div>
     </section>

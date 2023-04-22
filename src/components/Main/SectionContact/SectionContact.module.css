@@ -11,6 +11,8 @@ z-index: 2;
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .block {
@@ -19,12 +21,9 @@ z-index: 2;
 }
 
 .adress {
-    flex-grow: 2;
+  margin-right: 50px;
 }
 
-.links {
-    flex-grow: 1;
-}
 
 .block a {
     text-decoration: none;

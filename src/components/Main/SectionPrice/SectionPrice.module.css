@@ -5,21 +5,3 @@
     height: auto;
    
 }
-
-.info {
-    display: flex;
-    align-items: center;
-    padding: 5px;
-    font-size: 18px;
-    padding: 10px ;
-  
-;
-}
-
-.info h3 {
-    width: 80%;
-    font-weight: normal;
-}
-.info:nth-child(odd){
-background-color:#eaf5f7;
-}

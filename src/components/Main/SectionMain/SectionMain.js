@@ -4,22 +4,27 @@ const Section = () => {
   return (
     <div className={classes.section}>
       <div className={classes.phone}>
-        Тел:  <a href="tel:+79253714842">8 (925) 371-48-42</a> 
+        Тел: <a href="tel:+79253714842">8 (925) 371-48-42</a>
       </div>
       <div className={classes.content}>
         <div className={classes.info}>
           <div className={classes.block}>
-          <h1 className={classes.title}><Typewriter
-            onInit={(typewriter) => {
-              typewriter
-                .typeString("Ремонт и обслуживание автомобилей")
-                .pauseFor(1000)
-                .start();
-            }}
-          /></h1>
-          <p>возможен выезд мастера в удобное для Вас место</p></div>
-          <div><h2>Шиномонтаж</h2>
-          <p>все виды шиномонтажных работ</p></div>
+            <h1 className={classes.title}>
+              <Typewriter
+                onInit={(typewriter) => {
+                  typewriter
+                    .typeString("Ремонт и обслуживание автомобилей")
+                    .pauseFor(1000)
+                    .start();
+                }}
+              />
+            </h1>
+            <p>возможен выезд мастера в удобное для Вас место</p>
+          </div>
+          <div>
+            <h2>Шиномонтаж</h2>
+            <p>все виды шиномонтажных работ</p>
+          </div>
         </div>
       </div>
     </div>

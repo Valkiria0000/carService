@@ -6,7 +6,7 @@ const SectionAbout = () => {
         <h2 className="title">О нас</h2>
         <div className={classes.info}>
           <div className={classes.card}>
-            <div className={classes.num}>5</div>
+            <div className={classes.num}>3</div>
             <div>высококлассных специалистов, имеющих сертификаты</div>
           </div>
           <div className={classes.card}>

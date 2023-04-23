@@ -3,7 +3,9 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 
 import "../../../App.css"
-const SectionPrice = () => {
+import PriceList from "./PriceList/PriceList";
+const SectionPrice = (props) => {
+
   return (
     <section className={classes.price} id="section2">
         <div className="wrapper">
@@ -20,116 +22,9 @@ const SectionPrice = () => {
             </Tab>
           </TabList>
 
-          <TabPanel>
-            
-              <div className={classes.info}>
-                <h3>
-                  Замена сцепления(комплект)
-                </h3>
-                <span>Цена: от 6000 ₽</span>
-              </div>
-              <div className={classes.info}> 
-                <h3>
-                  Замена рабочего циллиндра сцепления
-                </h3>
-                <span>Цена: от 630 ₽</span>
-              </div>
-              <div className={classes.info}>
-                <h3>
-                  Прокачка контура сцепления
-                </h3>
-                <span>Цена: от 630 ₽</span>
-              </div>
-              <div className={classes.info}>
-                <h3>
-                  Замена главного циллиндра сцепления
-                </h3>
-                <span>Цена: от 1500 ₽</span>
-              </div>
-              <div className={classes.info}>
-                <h3>
-                  С/у АКПП(МКПП)легкового моноприводного а/м
-                </h3>
-                <span>Цена: от 6000 ₽</span>
-              </div>
-              <div className={classes.info}>
-                <h3>
-                 Сборка/разборка АКПП (МКПП) легкового моноприводного а/м
-                </h3>
-                <span>Цена: от 7000 ₽</span>
-              </div>
-              <div className={classes.info}>
-                <h3>
-                  С/у АКПП (МКПП) полноприводного а/м
-                </h3>
-                <span>Цена: от 8000 ₽</span>
-              </div>
-              <div className={classes.info}>
-                <h3>
-                 Сборка/разборка АКПП (МКПП) полноприводного а/м
-                </h3>
-                <span>Цена: от 9000₽</span>
-              </div>
-              <div className={classes.info}>
-                <h3>
-                Сборка/разборка АКПП (МКПП) тяжелого внедорожного а/м
-                </h3>
-                <span>Цена: от 12000 ₽</span>
-              </div>
-              <div className={classes.info}>
-                <h3>
-                С/у АКПП (МКПП) тяжелого внедорожного а/м
-                </h3>
-                <span>Цена: от 13000 ₽</span>
-              </div>
-              <div className={classes.info}>
-                <h3>
-                  Ремонт ГБЦ без снятия ГБЦ (притирка клапанов + замена
-                  прокладок + замена маслосъемных колпачков)
-                </h3>
-                <span>Цена: от 4000₽</span>
-              </div>
-              <div className={classes.info}>
-                <h3>Замена ГРМ (рядный ДВС одновальный SOHC)</h3>
-                <span>Цена: от 4500₽</span>
-              </div>
-
-              <div className={classes.info}> 
-                <h3>Замена ГРМ (рядный ДВС двухвальный DOHC)</h3>
-                <span>Цена: от 6500₽</span>
-              </div>
-              <div className={classes.info}> 
-                <h3>Замена ГРМ (V-образный ДВС одновальный SOHC)</h3>
-                <span>Цена: от 8000₽</span>
-              </div>
-              <div className={classes.info}> 
-                <h3>Замена ГРМ (V-образный ДВС двухвальный DOHC)</h3>
-                <span>Цена: от 9000₽</span>
-              </div>
-              <div className={classes.info}> 
-                <h3>Замена прокладки ГБЦ</h3>
-                <span>Цена: от 15000₽</span>
-              </div>
-              <div className={classes.info}> 
-                <h3>Капитальный ремонт * ДВС (рядный ДВС 4-х циллиндровый)
-                </h3>
-                <span>Цена: от 35000₽</span>
-              </div>
-              <div className={classes.info}> 
-                <h3>Капитальный ремонт * ДВС (рядный ДВС 5-ти циллиндровый)
-                </h3>
-                <span>Цена: от 45000₽</span>
-              </div>
-              <div className={classes.info}> 
-                <h3>Капитальный ремонт * ДВС (рядный ДВС 6-ти циллиндровый)
-                </h3>
-                <span>Цена: от 55000₽</span>
-              </div>
-              <div className={classes.info}> 
-                <h3>Капитальный ремонт * ДВС (V-образный ДВС 6-ти, 8-ми циллиндровый)
-                </h3>
-                <span>Цена: от 65000₽</span>
-              </div>
+          <TabPanel >
+           <PriceList  />
+             
           </TabPanel>
           <TabPanel>
           <div className={classes.info}> 

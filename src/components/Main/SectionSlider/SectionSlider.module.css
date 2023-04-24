@@ -47,5 +47,9 @@
     text-shadow: 0px 4px 20px #7bf331;
   }
 }
-
-
+@media (min-width: 300px) and (max-width: 500px) {
+ .container {
+  width: 300px;
+  margin: 0 auto;
+ }
+  }

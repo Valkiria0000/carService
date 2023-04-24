@@ -31,9 +31,7 @@ const SectionSlider = () => {
       </div>
      
     </div>
-
-     
-      <Swiper 
+<div className={classes.container}> <Swiper 
        
         modules={[Navigation, Pagination, A11y, EffectCoverflow]}
         spaceBetween={5}
@@ -65,7 +63,9 @@ const SectionSlider = () => {
         <SwiperSlide ><img src="./assets/img/slider/foto7.jpg" alt="slideImg7"/></SwiperSlide>
         <SwiperSlide ><img src="./assets/img/slider/foto8.jpg" alt="slideImg8"/></SwiperSlide>
         
-      </Swiper>
+      </Swiper></div>
+     
+     
     
      
     </div>

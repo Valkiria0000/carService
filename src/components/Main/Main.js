@@ -7,12 +7,11 @@ import SectionContact from "./SectionContact/SectionContact";
 
 const Main = (props) => {
 
-    
   return (
     <main>
       <SectionMain />
       <SectionAbout />
-      <SectionPrice />
+      <SectionPrice store={props.store} />
       <SectionSlider />
       <SectionContact />
       <SectionComment />

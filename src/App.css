@@ -80,9 +80,10 @@ section {
 }
 
 .react-tabs__tab-panel {
-  background-color: #d4d1d1;
+  background-color: #a4baf5;
   margin-top: 26px;
-  border: 2px solid #c2bcbc;
+  border: 3px solid #fff;
+  box-shadow: 0px -2px 15px 7px #fff;
 }
 section > .wrapper > .swiper {
   width: 1100px;

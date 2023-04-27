@@ -1,7 +1,16 @@
 .footer {
     color: #fff;
-    display: flex;
+   max-width: 1200px;
     height: 70px;
-    justify-content: center;
+    margin: 0 auto;
+     display: flex;
     align-items: center;
+}
+
+.footer img {
+    width: 60px;
+}
+
+.footer span {
+ margin: 0 auto;
 }

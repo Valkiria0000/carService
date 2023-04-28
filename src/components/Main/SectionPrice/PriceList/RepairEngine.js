@@ -1,13 +1,13 @@
 import classes from "./PriceList.module.css";
 
-const RepairClutch = (props) => {
+const RepairEngine = (props) => {
 
-  let repairClutch = props.store
-  return (repairClutch.state.repairClutch.map((elem) => (
+  let repairEngine = props.store
+  return (repairEngine.state.repairEngine.map((elem) => (
     <div className={classes.info} key={elem.id}>
       <h3>{elem.title}</h3>
       <span>{elem.price}</span>
     </div>
   )))
 };
-export default RepairClutch;
+export default RepairEngine;

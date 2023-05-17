@@ -1,5 +1,9 @@
 
-
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto; 
+  }
+  
 .price {
     background-color:#50C878;
     height: auto;

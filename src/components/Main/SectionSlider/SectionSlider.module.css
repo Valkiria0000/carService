@@ -9,7 +9,10 @@
   
 }
 
-
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
 .info {
   display: flex;
   justify-content: space-between;

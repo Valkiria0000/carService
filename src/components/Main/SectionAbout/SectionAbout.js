@@ -2,7 +2,7 @@ import classes from "./SectionAbout.module.css";
 const SectionAbout = () => {
   return (
     <section className={classes.about} id="section1">
-      <div className="wrapper">
+      <div className={classes.wrapper}>
         <h2 className="title">О нас</h2>
         <div className={classes.info}>
           <div className={classes.card}>

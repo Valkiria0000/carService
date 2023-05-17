@@ -5,7 +5,10 @@
     z-index: 2;
    
 }
-
+.wrapper {
+max-width: 1200px;
+margin: 0 auto;
+}
 .container {
     display: flex;
     justify-content: center;
@@ -14,7 +17,7 @@
 }
 
 .container div {
-    width: 230px;
+    width: 200px;
     height: 180px;
     background-color: #fff
     ;

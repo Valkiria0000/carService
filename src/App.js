@@ -479,12 +479,12 @@ let store = {
 function App() {
   return (
     <div className="App">
-      <div className="wrapper">
+      
         <Header />
-      </div>
+      
       <Main store={store}/>
-      <Footer />
-    </div>
+      <Footer /></div>
+   
   );
 }
 

@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/carService/static/css/main.08ace247.css",
-    "main.js": "/carService/static/js/main.ec2bd4cc.js",
+    "main.css": "/carService/static/css/main.48447f30.css",
+    "main.js": "/carService/static/js/main.2a992ff4.js",
     "static/media/aboutcar.png": "/carService/static/media/aboutcar.dcfb60257d29b13c5941.png",
-    "static/media/car.png": "/carService/static/media/car.a5120efe82af5a41d29f.png",
     "static/media/bcg.png": "/carService/static/media/bcg.4c7e5137b974b76d22ad.png",
+    "static/media/car.png": "/carService/static/media/car.f3124fa7272f9bab0024.png",
     "static/media/contactbcg.png": "/carService/static/media/contactbcg.c575249b99966cbbdd12.png",
     "index.html": "/carService/index.html",
-    "main.08ace247.css.map": "/carService/static/css/main.08ace247.css.map",
-    "main.ec2bd4cc.js.map": "/carService/static/js/main.ec2bd4cc.js.map"
+    "main.48447f30.css.map": "/carService/static/css/main.48447f30.css.map",
+    "main.2a992ff4.js.map": "/carService/static/js/main.2a992ff4.js.map"
   },
   "entrypoints": [
-    "static/css/main.08ace247.css",
-    "static/js/main.ec2bd4cc.js"
+    "static/css/main.48447f30.css",
+    "static/js/main.2a992ff4.js"
   ]
 }
